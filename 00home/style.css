@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+#place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+      font-family: 'Hahmlet', serif;
+      line-height: 1.7;
+      word-break: keep-all;
+      text-align: center;
+      background: #202020;
+      color: #84C6F7;
+      margin: 30px;
+
+}
+
+a,
+span {
+      color: #fff;
+}
+
+span.a {
+      display: inline-block;
+      margin: 10px;
+}
+
+span.a :focus {
+      display: block;
+      border: 10px solid #84C6F7;
+      border-style: dotted;
+}
+
+div.a {
+      border-radius: 20px;
+      box-shadow: inset 0px 0px 10px 10px white;
+      padding: 30px;
+}
+
+div.b {
+      border-radius: 20px;
+      box-shadow: inset 0px 0px 10px 10px white;
+      padding: 30px;
+}
+
+
+/*
+div.b {
+      border: 5px solid #84C6F7;
+      border-style: dashed;
+      padding: 10px;
+}
+
+
+body {
+      background-image: url(treebark.jpg);
+      }
+      */

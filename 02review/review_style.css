@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+    word-break: keep-all;
+    background: #202020;
+    font-family: 'Hahmlet', serif;
+    color: #84C6F7;
+    margin: 30px;
+    line-height: 1.7;
+    }
+    
+h1 {
+    color:  #fff;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+a,
+s {
+    	color: #fff;
+    }
+
+.review1 {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+.review2 {
+	margin-left: 100px;
+	margin-right: 20px;
+}
+.review3 {
+	margin-left: 150px;
+	margin-right: 20px;
+}
+.review4 {
+	margin-left: 200px;
+	margin-right: 20px;
+}
+.review4-1 {
+	margin-left: 250px;
+	margin-right: 20px;
+	color: #fff;
+}
+.review5 {
+	margin-left: 300px;
+	margin-right: 20px;	
+}
