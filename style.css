@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 15px;
+}
+
+body {
+	word-break: keep-all;
+	background: #202020;
+	color: #fff;
+	font-family: 'Merriweather', 'Hahmlet', serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	margin: 3rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: center;
+	}
+
+h1 {
+	font-size: 24px;
+ 	color: white;
+}
+
+a {
+	color: #84C6F7;
+}
+
+.withneworder {
+  display: inline-block;
+  background-color: #fff;
+  outline: solid #84C6F7 .25rem;
+  padding: .5rem;
+  margin-bottom: 2rem;
+  color: #202020;
+}
+
+.withneworder a {
+	color: #84C6F7;
+}
+
+.iphone12 {
+  display: none;
+}
+
+.mainroomtext img {
+  width: 5rem;
+}
+
+/*앱 첫 번째 줄 시작*/
+
+.app02 {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 1.3rem;
+}
+
+.app00 {
+  display: inline-block;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-right: 1.3rem;
+}
+
+.app01 {
+  display: inline-block;
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+}
+
+
+
+/*앱 두 번째 줄 시작*/
+
+.app03 {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 1.3rem;
+}
+
+.app04 {
+  display: inline-block;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-right: 1.3rem;
+}
+
+.app05 {
+  display: inline-block;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/*앱 세 번째 줄 시작*/
+
+.app06 {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 1.3rem;
+}
+
+.app07 {
+  display: inline-block;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-right: 1.3rem;
+}
+
+.app08 {
+  /*빈 공간 채우는 용도의 08번 앱*/
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  /*.chatbackground {
+    display: block;
+    border-radius: 1rem;
+  }*/
+
+  .iphone12 {
+    z-index: 0;
+    display: block;
+    height: 85vh;
+  }
+
+  .mainroomtext {
+    z-index: 1;
+    width: 33vh;
+    height: 74.5vh;
+    display: block;
+    position: absolute;
+    top: 15vh;
+    overflow: auto;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+}
