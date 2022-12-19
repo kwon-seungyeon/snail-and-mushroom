@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 15px;
+}
+
+body {
+	word-break: keep-all;
+	background: #202020;
+	color: white;
+	margin: 1.1rem;
+	font-family: 'Merriweather', 'Hahmlet', serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: .9rem;
+}
+
+a {
+	color: #84C6F7;
+}
+
+.gohome {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.book_neworder {
+  padding: 0 1rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.book_neworder img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iphone12 {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .iphone12 {
+    z-index: 0;
+    display: block;
+    height: 85vh;
+  }
+
+  .body {
+  	z-index: 1;
+    width: 33vh;
+    height: 74.5vh;
+    display: block;
+    position: absolute;
+    top: 15vh;
+    overflow: auto;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+  }
+}

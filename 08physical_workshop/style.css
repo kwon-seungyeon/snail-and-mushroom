@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 25px;
+}
+
+body {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-bottom: 1rem;
+  word-break: keep-all;
+  background: white;
+  color: #black;
+  font-family: agahnsangsoo2012, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 1rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+/*  text-align: center;*/
+  }
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: .8rem;
+}
+
+hr {
+  border-style: solid;
+  border-width: .1rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  /*width: ;*/
+}
+
+mark {
+  background-color: #84C6F7;
+  color: black;
+}
+
+.iphone12 {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /*auto에서 scroll로 바꿔도 scrollbar 커스터마이징이 안 되는데...hmm...*/
+  }
+
+  .iphone12 {
+    z-index: 0;
+    display: block;
+    height: 85vh;
+  }
+
+  .body {
+    z-index: 1;
+    width: 33vh;
+    height: 74vh;
+    display: block;
+    position: absolute;
+    top: 15vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+/*    border-radius: 1rem;*/
+    padding-bottom: 2rem;
+  }
+
+/*  .scrollbar::-webkit-scrollbar {
+    width: .5px;
+    height: 74vh;
+    background-color: yellow;
+    overflow-y: scroll;
+  }
+*/
+/*  잉...스크롤바 어케 하는 걸까...*/
+
+}

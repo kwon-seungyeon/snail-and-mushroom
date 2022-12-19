@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 30px;
+}
+
+body {
+/*	border: solid black 0.25rem;*/
+	padding-left: 0.4rem;
+	padding-bottom: 1rem;
+	word-break: keep-all;
+	background: white;
+	color: #black;
+	font-family: agahnsangsoo2012, sans-serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	margin: 1rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: center;
+	}
+
+h1 {
+	font-weight: 700;
+	font-size: 100px;
+	line-height: .5;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.six {
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 1rem;
+}
+
+.iphone12 {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .iphone12 {
+    z-index: 0;
+    display: block;
+    height: 85vh;
+  }
+
+  .lostvoweltext {
+    z-index: 1;
+    width: 33vh;
+    height: 74vh;
+    display: block;
+    position: absolute;
+    top: 15vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+/*    overflow: auto;*/
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  h1 {
+  	font-size: 3rem;
+  	padding-top: 1rem;
+  	line-height: .5;
+  }
+
+
+
+}
+
+
+
